@@ -12,11 +12,17 @@ Dan
 
 ## Show a PCE VGM or VGZ files duration
 
- python3 vgm_trim.py Dungeon.vgm
+```
+python3 vgm_trim.py Dungeon.vgm
+```
+
+This will output the tracks looped and non-looped durations, if it uses loops.
 
 ## Trim a VGM or VGZ file
 
- python3 vgm_trim.py -t 77 Dungeon.vgm
+```
+python3 vgm_trim.py -t 77 Dungeon.vgm
+```
 
 This will trim **Dungeon.vgm** to 77 seconds and output a .vgm file with a **_trimmed.vgm** suffix in the same directory.
 
